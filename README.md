@@ -16,7 +16,7 @@ same_end([1, 2, 3], [1, 3]) → True
 def same_end(list_a, list_b):
     # ++ Your code here ++
 
-    return "boolean"
+    return "a boolean"
 ```
 
 ## List Sum
@@ -31,7 +31,7 @@ list_sum([7, 0, 0]) → 7
 def list_sum(num_list):
     # ++ Your code here ++
 
-    return "sum"
+    return "the sum"
 ```
 
 ## Backwards
@@ -47,7 +47,7 @@ backwards(["pig", "horse", "cat"]) → ["cat", "horse", "pig"]
 def backwards(list):
     # ++ Your code here ++
 
-    return "backwards"
+    return "the array backwards"
 ```
 
 ## Average
@@ -61,7 +61,7 @@ average([7, 0, 1]) → 2.6666666667
 def average(num_list):
     # ++ Your code here ++
 
-    return "average"
+    return "the average"
 ```
 
 ## Count Evens
@@ -76,7 +76,7 @@ count_evens([1, 3, 5]) → 0
 def count_evens(list):
     # +++ Your code here +++
 
-    return "zero"
+    return "number of evens"
 ```
 
 ## Biggest Difference
@@ -93,7 +93,7 @@ big_diff([-20, -10, -7, -2]) → 18
 def big_diff(list):
     # +++ Your code here +++
 
-    return "zero"
+    return "biggest difference"
 ```
 
 ## Centered Average
@@ -113,5 +113,5 @@ centered_average([-10, -4, -2, -4, -2, 1]) → -3
 def centered_average():
     # +++ your code here +++
 
-    return "zero"
+    return "centered average"
 ```
