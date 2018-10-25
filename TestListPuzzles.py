@@ -37,7 +37,7 @@ class TestListPuzzles(TestCase):
         self.assertEqual(list_sum([7, 0, 0]), 7)
 
     def test_list_sum4(self):
-        self.assertEqual(list_sum([2,5,-3,6,10]), 4)
+        self.assertEqual(list_sum([2,5,-3,6,10]), 20)
 
     def test_list_sum5(self):
         self.assertEqual(list_sum([-3, -5, 10, -2]), 0)
@@ -66,7 +66,7 @@ class TestListPuzzles(TestCase):
         self.assertAlmostEqual(average([5, 11, 2]), 6, 5)
 
     def test_average3(self):
-        self.assertAlmostEqual(average([7, 0, 1]), 2.666, 5)
+        self.assertAlmostEqual(average([7, 0, 1]), 2.66667, 5)
 
     def test_average4(self):
         self.assertAlmostEqual(average([12,-4,5,9]), 5.5, 5)
