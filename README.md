@@ -72,7 +72,7 @@ Note: the % "mod" operator computes the remainder, e.g. 5 % 2 is 1.
 count_evens([2, 1, 2, 3, 4]) → 3
 count_evens([2, 2, 0]) → 3
 count_evens([1, 3, 5]) → 0
-
+"""
 def count_evens(list):
     # +++ Your code here +++
 
@@ -107,7 +107,7 @@ that the array is length 3 or more. (should return a float)
 
 ```python
 centered_average([1, 2, 3, 4, 100]) → 3
-centered_average([1, 1, 5, 10, 8, 7]) → 4.6666667
+centered_average([1, 1, 5, 10, 8, 7]) → 5.25
 centered_average([-10, -4, -2, -4, -2, 1]) → -3
 
 def centered_average():
