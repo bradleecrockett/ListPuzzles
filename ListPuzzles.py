@@ -54,7 +54,7 @@ Both arrays will be length 1 or more.
 
 Sample Tests
 same_end([1, 2, 3], [7, 3]) → True
-same_end([1, 2, 3], [7, 3, 2]) → False
+same_end([1, 2, 3, 5], [7, 3, 2]) → False
 same_end([1, 2, 3], [1, 3]) → True
 """
 def same_end(list_a, list_b):
@@ -68,7 +68,7 @@ You must use a loop and may not use the sum() function
 
 Sample Tests
 list_sum([1, 2, 3]) → 6
-list_sum([5, 11, 2]) → 18
+list_sum([5, 11, 2, 8]) → 26
 list_sum([7, 0, 0]) → 7
 """
 def list_sum(num_list):
@@ -87,7 +87,7 @@ backwards([5, 11, 9, 8]) → [8, 9, 11, 5]
 backwards([7, 0, "zero"]) → ["zero", 0, 7]
 backwards(["pig", "horse", "cat"]) → ["cat", "horse", "pig"]
 """
-def backwards(list):
+def backwards(any_list):
     # ++ Your code here ++
 
     return "the array backwards"
@@ -98,7 +98,7 @@ Given an array (list) of numbers, return the average of the array
 
 Sample Tests
 average([1, 2, 3]) → 2
-average([5, 11, 2]) → 6
+average([5, 11, 2, 6]) → 6
 average([7, 0, 1]) → 2.6666666667
 """
 def average(num_list):
@@ -116,7 +116,7 @@ count_evens([2, 1, 2, 3, 4]) → 3
 count_evens([2, 2, 0]) → 3
 count_evens([1, 3, 5]) → 0
 """
-def count_evens(list):
+def count_evens(num_list):
     # +++ Your code here +++
 
     return "the number of evens"
@@ -133,7 +133,7 @@ big_diff([10, 3, 5, 6]) → 7
 big_diff([7, 2, 10, 9]) → 8
 big_diff([-20, -10, -7, -2]) → 18
 """
-def big_diff(list):
+def big_diff(a_list):
     # +++ Your code here +++
 
     return "biggest difference"
@@ -153,7 +153,7 @@ centered_average([1, 2, 3, 4, 100]) → 3
 centered_average([1, 1, 5, 10, 8, 7]) → 5.25
 centered_average([-10, -4, -2, -4, -2, 1]) → -3
 """
-def centered_average():
+def centered_average(a_list):
     # +++ your code here +++
 
     return "centered average"
