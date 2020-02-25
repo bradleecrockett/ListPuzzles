@@ -13,7 +13,7 @@ def main():
     # Replace the ??? with an expected result
     # Replace the '''function_call''' with an appropriate function call to match the expected result
     print("same_end Testing")
-    print("Expected: ??? \t\tResult: ", '''function_call''')
+    print("Expected: False \t\tResult: ", same_end([1,2,3], [6,7,8]))
     print("Expected: ??? \t\tResult: ", '''function_call''')
     print("Expected: ??? \t\tResult: ", '''function_call''')
 
@@ -160,4 +160,5 @@ def centered_average(a_list):
 
 
 
-main()
+if __name__ == '__main__':
+    main()
