@@ -74,7 +74,7 @@ class TestListPuzzles(TestCase):
     def test_average5(self):
         self.assertAlmostEqual(average([123]), 123, 5)
 
-    def test_average5(self):
+    def test_average6(self):
         self.assertAlmostEqual(average([]), 0, 5)
 
     # count_evens Tests
