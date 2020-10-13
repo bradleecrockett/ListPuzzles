@@ -1,12 +1,12 @@
 from unittest import TestCase
 
-from ListPuzzles import same_end
-from ListPuzzles import list_sum
-from ListPuzzles import backwards
-from ListPuzzles import average
-from ListPuzzles import count_evens
-from ListPuzzles import big_diff
-from ListPuzzles import centered_average
+from list_puzzles import same_end
+from list_puzzles import list_sum
+from list_puzzles import backwards
+from list_puzzles import average
+from list_puzzles import count_evens
+from list_puzzles import big_diff
+from list_puzzles import centered_average
 
 
 class TestListPuzzles(TestCase):
