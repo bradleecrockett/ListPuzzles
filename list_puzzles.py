@@ -12,6 +12,8 @@ def main():
     # simple testing
     # Replace the ??? with an expected result
     # Replace the '''function_call''' with an appropriate function call to match the expected result
+    # TODO You need to write at least 3 tests for each of the 7 functions that you wrote.
+    # One example test is written for you for same_end and the frame of tests are written for the rest.
     print("same_end Testing")
     print("Expected: False \t\tResult: ", same_end([1,2,3], [6,7,8]))
     print("Expected: ??? \t\tResult: ", '''function_call''')
