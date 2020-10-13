@@ -72,7 +72,7 @@ Note: the % "mod" operator computes the remainder, e.g. 5 % 2 is 1.
 count_evens([2, 1, 2, 3, 4]) → 3
 count_evens([2, 2, 0]) → 3
 count_evens([1, 3, 5]) → 0
-"""
+
 def count_evens(list):
     # +++ Your code here +++
 
@@ -80,10 +80,8 @@ def count_evens(list):
 ```
 
 ## Biggest Difference
-Given an array length 1 or more of ints, return the difference between
+Given an array of ints with a length 1 or more, return the difference between
 the largest and smallest values in the array (should return an int).
-Note: the built-in min(v1, v2) and max(v1, v2) functions return the
-smaller or larger of two values.
 
 ```python
 big_diff([10, 3, 5, 6]) → 7
